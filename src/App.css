@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 2.0;
+  color: #444;
+  background: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  max-width: 600px;
+  margin: 25 25;
+  padding: 35px;
+}
+
+.inner {
+  width: 100%;
+  padding: 8rem 10px 4rem;
+}
+
+/* .form-container {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  border-radius: calc(0.5 * 100px);
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.38);
+  justify-content: space-evenly;
+} */
+
+.input-text {
+  border-width: 2px;
+  border-color: #000;
+  border-style: double;
+  font-weight: 400;
+  width: 350px;
+  padding-right: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.input-text::placeholder {
+  color: grey;
+}
+
+.input-submit {
+  /* background: transparent; */
+  color: #5b5b5b;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 600;
+  margin-right: 10px;
+  border-color: #000;
+}
+
+.input-text,
+.input-submit {
+  height: 25px;
+  outline: auto;
+  border: green;
+}
