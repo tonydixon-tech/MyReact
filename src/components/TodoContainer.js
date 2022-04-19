@@ -73,10 +73,6 @@ class TodoContainer extends React.Component {
     }
   }
 
-  componentWillUnmount() {
-    console.log("Cleaning up...")
-  }
-
   render() {
     return (
       <div className="container">
